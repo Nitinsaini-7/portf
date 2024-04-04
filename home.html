@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script async src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+<div class="portfolio">
+
+    <div class="home" id="home">
+        <nav>
+            <div class="navigation">
+               
+                <div class="portfolio-text">
+                    <p>Port<span>folio</span></p>
+                </div>
+                <ul class="nav-links">
+                    <div class="nav-data">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </div>
+                    <div class="closebar"><img src="right-arrow.png" alt="" onclick="closemenu()"></div>
+                </ul>
+                
+                    <div class="dark-light"><i class="bi bi-moon-stars-fill" id="toggleDark"></i></div>
+                    <div class="menubar"><img src="menu.png" alt="" onclick="openmenu()"></div>
+                
+            </div>
+        </nav>
+      
+        <div class="info-container">
+            <div class="info-box">
+                <h1>Hii,</h1>
+                <h1>My name is <span>Nitin Saini</span></h1>
+                <h1>I'm a <span class="typing"></span></h1>
+
+                <div class="button">
+                    <a href=""><button class="btn1">Download Resume</button></a>
+                    <a href="#contact"><button class="btn2">Contact</button></a>
+                </div>
+
+                <div class="social-link">
+                    <div class="social-img">
+                        <img src="github (1).png" alt="">
+                    </div>
+
+                    <div class="social-img">
+                        <img src="linkedin.png" alt="">
+                    </div>
+
+                    <div class="social-img">
+                        <img src="twitter.png" alt="">
+                    </div>
+
+                    <div class="social-img">
+                        <img src="discord.png" alt="">
+                    </div>
+
+                    <div class="social-img">
+                        <img src="instagram.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="blob">
+              <img class="image" src="IMG_20230602_165503-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!--About-->
+    <div class="about" id="about">
+        <div class="a">
+            <h3 class="heading">ABOUT</h3>
+
+        </div>
+      <div class="about-container1">
+          <div data-aos="zoom-in-down">
+              <div class="about-box">
+                  <img class="about-img" src="about-image.png" alt="">
+              </div>
+          </div>
+          <div data-aos="zoom-in-up">
+              <div class="about-box">
+                  <p>
+                      My name is Nitin Saini. I am pursuing my Bachelor of Technology in Computer Science
+                      & Engineering from Sanskar College of Engineering and Technology. I am well-versed
+                      and 2 years experience of computer programming languages like C++, Python and other
+                      related software technologies and I have also good knowledge in Web Development
+                      with the technologies like HTML, CSS, JavaScript, Bootstrap etc.
+                      I am highly motivated and competent to take up any challenging roles related to
+                      software. I believe my strength is my attitude, and I like to take up challenges
+                      and I believe in myself and my work.
+                  </p>
+              </div>
+          </div>
+      </div>
+          <div class="about-container2">
+              <div data-aos="zoom-in-up">
+                  <div class="about-box">
+                      <table>
+                          <tr>
+                            <th><p>Nmae :</p></th>
+                            <td>Nitin Saini</td>
+                          </tr>
+                          <tr>
+                            <th><p>Birthday :</p></th>
+                            <td>9th June 2002</td>
+                          </tr>
+                          <tr>
+                            <th><p>Age :</p></th>
+                            <td>21 Yr</td>
+                       </tr>
+                          
+                        </table>
+                  </div>
+              </div>
+              <div data-aos="zoom-in-up">
+                  <div class="about-box">
+                      <table>
+                          <tr>
+                              <th>Email :</th>
+                              <td>saini00nitin@gmail.com</td>
+                          </tr>
+                          <tr>
+                              <th>Phone :</th>
+                              <td>7452863255</td>
+                          </tr>
+                          <tr>
+                              <th>Address :</th>
+                              <td>Hapur,India,245101</td>
+                          </tr>
+                        </table>
+                  </div>
+              </div>
+          </div>
+    </div>
+
+
+    <!--Education-->
+    <div class="education" id="education">
+      <h3 class="heading">EDUCATION</h3>
+      <div class="education-text">
+          My education are 
+      </div>
+          <div class="education-container">
+              <div data-aos="zoom-in-right">
+                <div class="education-box">
+                      <i class="fa-solid fa-graduation-cap"></i>
+                      <h2>Dr. A.P.J. Abdul Kalam Technical University</h2>
+                      <br>
+                      <p>Bachelor of Technology in Computer Science & Engineering <span class="education-year">2020-24</span></p>
+                      <p>SGPA: <span>7.5</span></p>
+                </div>
+              </div>
+              <div data-aos="zoom-out-right">
+                  <div class="education-box">
+                      <i class="fa-solid fa-school"></i>
+                      <h2>Board of High School and Intermediate Education Uttar Pradesh</h2>
+                      <br>
+                      <p>Intermediate (12th) <span class="education-year">2018-19</span></p>
+                      <p>Percentage: <span>73%</span></p>
+                  </div>
+              </div>
+              <div data-aos="zoom-in-right">
+                  <div class="education-box">
+                      <i class="fa-solid fa-school"></i>
+                      <h2>Board of High School and Intermediate Education Uttar Pradesh</h2>
+                      <br>
+                      <p>Highscool (10th) <span class="education-year">2016-17</span></p>
+                      <p>Percentage: <span>73%</span></p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+        <!--Skills-->
+        <div class="skills" id="skills">
+            <h3 class="heading">SKILLS</h3>
+            <div class="skill-text">
+                I have good knowledge and experience of these technologies.
+            </div>
+  
+            <div class="skill-container">
+
+                <div data-aos="zoom-in-right">
+                    <div class="skill-box">
+                        <img class="skill-img" src="html.png" alt="">
+                        <h3 class="skill-name">HTML</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-left">
+                    <div class="skill-box">
+                        <img class="skill-img" src="css.png" alt="">
+                        <h3 class="skill-name">CSS</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-right">
+                    <div class="skill-box">
+                        <img class="skill-img" src="js.png" alt="">
+                        <h3 class="skill-name">JavaScript</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-left">
+                    <div class="skill-box">
+                        <img class="skill-img" src="react.png" alt="">
+                        <h3 class="skill-name">React</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-left">
+                    <div class="skill-box">
+                        <img class="skill-img" src="node.js.png" alt="">
+                        <h3 class="skill-name">Node.js</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-left">
+                    <div class="skill-box">
+                        <img class="skill-img" src="bootstrap (1).png" alt="">
+                        <h3 class="skill-name">Bootstrap</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-left">
+                    <div class="skill-box">
+                        <img class="skill-img" src="tailwind.png" alt="">
+                        <h3 class="skill-name">Tailwind</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-left">
+                    <div class="skill-box">
+                        <img class="skill-img" src="github.png" alt="">
+                        <h3 class="skill-name">GitHub</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-right">
+                    <div class="skill-box">
+                        <img class="skill-img" src="python.png" alt="">
+                        <h3 class="skill-name">Python</h3>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-right">
+                    <div class="skill-box">
+                        <img class="skill-img" src="cpp.png" alt="">
+                        <h3 class="skill-name">C++</h3>
+                    </div>
+                </div>
+          </div>
+      </div>
+
+      <!-- projects -->
+        <div class="projects" id="projects">
+            <h3 class="heading">PROJECTS</h3>
+            <div class="project-text">
+              Here are few projects I have created during my college.
+             </div>
+  
+            <div class="project-container">
+  
+                <div class="project-box">
+                    <h3 class="project-name">Gyan Ki Kaksha <br> (Online Learning Platform)</h3>
+                    <img class="project-img" src="online-lesson.png" alt="">
+                    
+                    <div class="project-box-text">
+                        <li>
+                            An analog clock is a timekeeping device that uses hands on a dial to indicate the time. 
+                        </li>
+
+                        <li>
+                            The hands on an analog clock can indicate the hours, minutes, and sometimes seconds.
+                        </li>
+
+                        <li>
+                            To create an analog clock, we use HTML to define the structure of the clock, CSS to style
+                            the clock, and JavaScript to make the clock interactive.
+                        </li>
+                    </div>
+                    <button class="project-btn">See Project →</button>
+                </div>
+
+                <div class="project-box">
+                    <h3 class="project-name">Clock App</h3>
+                    <img class="project-img" src="clock.png" alt="">
+                    
+                    <div class="project-box-text">
+                        <li>
+                            An analog clock is a timekeeping device that uses hands on a dial to indicate the time. 
+                        </li>
+
+                        <li>
+                            The hands on an analog clock can indicate the hours, minutes, and sometimes seconds.
+                        </li>
+
+                        <li>
+                            To create an analog clock, we use HTML to define the structure of the clock, CSS to style
+                            the clock, and JavaScript to make the clock interactive.
+                        </li>
+                    </div>
+                    <button class="project-btn">See Project →</button>
+                </div>
+
+                <div class="project-box">
+                    <h3 class="project-name">Weather Application</h3>
+                    <img class="project-img" src="weather.png" alt="">
+                    
+                    <div class="project-box-text">
+                        <li>
+                            Weather apps provide real-time weather information based on a user's current location or search inputs.
+                        </li>
+                        
+                        <li>
+                            It can demonstrate the power of HTML, CSS, and JavaScript in building web applications that interact with APIs.
+                        </li>
+                    </div>
+                    <button class="project-btn">See Project →</button>
+                </div>
+
+                <div class="project-box">
+                    <h3 class="project-name">Typing Enhancer</h3>
+                    <img class="project-img" src="typing.png" alt="">
+                   
+                    <div class="project-box-text">
+                        <li>knknknkwknfnkfk kfnwkfw</li>
+
+                        <li>nknfinfefeennenfenfnfefnoenfeofneofn</li>
+                    </div>
+                    <button class="project-btn">See Project →</button>
+                </div>
+                
+                <div class="project-box">
+                    <h3 class="project-name">Space Shooter Game</h3>
+                    <img class="project-img" src="space-shooter.png" alt="">
+
+                    <div class="project-box-text">
+                        <li>
+                            A space shooter game is a game where a spaceship moves around the galaxy to protect it from asteroids and enemies.
+                        </li>
+                        
+                        <li>
+                            An arcade game where you control a spaceship in space and must survive flyings saucers and asteroids to complete levels.
+                        </li>
+                    </div>            
+                    <button class="project-btn">See Project →</button>
+                </div>
+
+          </div>
+      </div>    
+
+    <div class="contact" id="contact">
+        <h3 class="heading">CONTACT</h3>
+
+        <div class="contact-container">
+            <div class="contact-box1">
+            <div>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91-7452863255</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>saini00nitin@gmail.com</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.google.com/maps/place/Sanskar+Educational+Group/@28.6932525,77.5727975,17z/data=!3m1!4b1!4m6!3m5!1s0x390c8d24b4f50917:0xd52a447e5edf7197!8m2!3d28.6932478!4d77.5753724!16s%2Fg%2F11_q3vq99?entry=ttu">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Hapur (Uttar Pradesh), India, 245101</p>
+                </a>
+            </div>
+        </div>
+        <div class="contact-box2">
+            <form action="" class="form">
+                <div class="send">
+                <h3>Send Message</h3>
+                </div>
+                <input type="text" placeholder="Enter Your Name" id="name">
+                <input type="email" placeholder="Enter Your Email" id="email">
+                <input type="text" placeholder="Subject" id="subject">
+                <textarea type="text" placeholder="Message" id="message" rows="8"></textarea>
+                <div class="contact-buttons">
+                    <button type="submit" class="submit-btn" onclick="emailSend()">Submit</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <p>copyright@2024 made by Nitin with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
